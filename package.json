@@ -1,0 +1,28 @@
+{
+  "name": "streamstache-cache",
+  "description": "A production file cache for streamstache.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/streamstache-cache.git"
+  },
+  "homepage": "https://github.com/juliangruber/streamstache-cache",
+  "main": "index.js",
+
+  "dependencies": {
+    "streamstache": "~0.3.3"
+  },
+  "keywords": [
+    "streamstache",
+    "cache",
+    "fs",
+    "templating",
+    "template"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
