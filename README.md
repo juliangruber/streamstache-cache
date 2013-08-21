@@ -10,7 +10,7 @@ var Cached = require('streamstache-cache');
 var tpl = Cached(__dirname + '/simple.html');
 
 http.createServer(function(req, res) {
-	tpl({ foo: 'bar' }).pipe(res);
+  tpl({ foo: 'bar' }).pipe(res);
 });
 ```
 
